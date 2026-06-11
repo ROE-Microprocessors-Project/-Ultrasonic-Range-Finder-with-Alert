@@ -2,7 +2,7 @@
 
 **Microprocessors Course Project - Medipol University**
 
-*Team :Armita Sadat Momenzadeh, Sina Zaker, Mohammadmatin Farboodi*
+*Team : Armita Sadat Momenzadeh, Sina Zaker, Mohammadmatin Farboodi*
 
 ## Overview
 This repository contains the C source code for our physical breadboard project: an Ultrasonic Range Finder. The system uses an HC-SR04 sensor to measure the distance to an object and triggers a buzzer and LED alert if things get too close. The project runs on a **PIC16F877A** microcontroller. 
@@ -45,8 +45,3 @@ This repository contains the C source code for our physical breadboard project: 
 1. Disconnect the PICkit 3.
 2. Connect the external **5V Lab Power Supply** to the power rails on your breadboard.
 3. Turn on the power supply and move your hand in front of the sensor to test the distance alerts.
-
-## Team 
-* Armita Sadat Momenzadeh
-* Sina Zaker
-* Mohammadmatin Farboodi
