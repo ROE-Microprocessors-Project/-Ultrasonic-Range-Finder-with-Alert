@@ -1,7 +1,8 @@
 # Ultrasonic Range Finder with Alert
 
 **Microprocessors Course Project - Medipol University**
-Team :Armita Sadat Momenzadeh, Sina Zaker, Mohammadmatin Farboodi
+
+*Team :Armita Sadat Momenzadeh, Sina Zaker, Mohammadmatin Farboodi*
 
 ## Overview
 This repository contains the C source code for our physical breadboard project: an Ultrasonic Range Finder. The system uses an HC-SR04 sensor to measure the distance to an object and triggers a buzzer and LED alert if things get too close. The project runs on a **PIC16F877A** microcontroller. 
