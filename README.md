@@ -31,7 +31,7 @@ Here is how our code covers the required topics for the project:
 
 ## Pin Connections
 | Component | Function | PIC16F877A Pin | Pin Type |
-----------------------------------------------------
+| :--- | :--- | :--- | :--- |
 | **HC-SR04** | Trigger (TRIG) | RC0 | Output |
 | **HC-SR04** | Echo (ECHO) | RC1 | Input |
 | **Buzzer** | PWM Alert | RC2 (CCP1) | Output |
