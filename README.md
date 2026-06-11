@@ -1,4 +1,4 @@
-# -Ultrasonic-Range-Finder-with-Alert
+# Ultrasonic Range Finder with Alert
 Measures distance and triggers alert if object is too close.
 
 **Medipol University - Microprocessors Course Project**
@@ -6,7 +6,7 @@ Measures distance and triggers alert if object is too close.
 ## Overview
 This repository contains the C source code for our physical breadboard project: an Ultrasonic Range Finder. The system uses an HC-SR04 sensor to measure the distance to an object and triggers a buzzer and LED alert if things get too close. The project runs on a **PIC16F877A** microcontroller. 
 
-## How It Works & Assignment Requirements
+## How It Works
 Here is how our code covers the required topics for the project:
 
 * **Timer1 (Pulse Width Measurement):** We used the 16-bit Timer1 to count exactly how long it takes for the ultrasonic echo to bounce back. We turn the timer on when the echo pin goes high and stop it when it goes low.
