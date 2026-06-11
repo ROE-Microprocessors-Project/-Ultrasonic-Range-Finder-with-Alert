@@ -1,13 +1,12 @@
 # Ultrasonic Range Finder with Alert
 
-**Medipol University - Microprocessors Course Project**
+**Microprocessors Course Project - Medipol University**
+Team :Armita Sadat Momenzadeh, Sina Zaker, Mohammadmatin Farboodi
 
 ## Overview
 This repository contains the C source code for our physical breadboard project: an Ultrasonic Range Finder. The system uses an HC-SR04 sensor to measure the distance to an object and triggers a buzzer and LED alert if things get too close. The project runs on a **PIC16F877A** microcontroller. 
 
 ## How It Works
-Here is how our code covers the required topics for the project:
-
 * **Timer1 (Pulse Width Measurement):** We used the 16-bit Timer1 to count exactly how long it takes for the ultrasonic echo to bounce back. We turn the timer on when the echo pin goes high and stop it when it goes low.
 * **GPIO (Trigger/Echo):** We configured standard digital pins to communicate with the sensor (RC0 as output for the trigger, RC1 as input for the echo). We also used RD0 as an output to turn on the warning LED.
 * **PWM (Buzzer Control):** Instead of just using a basic high/low signal, we used the CCP1 module to generate a proper PWM signal on pin RC2 to drive the buzzer. 
@@ -49,4 +48,4 @@ Here is how our code covers the required topics for the project:
 ## Team 
 * Armita Sadat Momenzadeh
 * Sina Zaker
-* Mohammad matin Farboodi
+* Mohammadmatin Farboodi
