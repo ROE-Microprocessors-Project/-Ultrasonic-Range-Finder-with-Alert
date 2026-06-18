@@ -9,7 +9,7 @@
 #pragma config CPD = OFF
 #pragma config WRT = OFF
 #pragma config CP = OFF
-
+grfcb
 void PWM_Init(void) {
     TRISCbits.TRISC2 = 0;
     CCP1CON = 0x0C;
